@@ -57,8 +57,6 @@ module OmniAuth
 
       def identifier
         id = options[:domain] || request['domain']
-        Rails.logger.debug ">>>>>>>> id = #{id.inspect}"
-        id
       end
     end
   end
